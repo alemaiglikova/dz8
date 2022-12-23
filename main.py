@@ -22,3 +22,6 @@ for i in range(1, 20 + 1):
     for j in range(1):
         c = sheet1.cell(row=i, column=j)
         sheet2.cell(row=i, column=j).value = c
+        
+        
+ у меня ничего не получилось с экселем, времени не было, поэтому пришлось делать как-то приблизительно
